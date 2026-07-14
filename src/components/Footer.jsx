@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-white/5 py-10">
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-slate-500">
-          © {new Date().getFullYear()} {profile.name}. Built with React &amp; Tailwind.
+          © {new Date().getFullYear()} {profile.name}.
         </p>
         <div className="flex items-center gap-5">
           <a
